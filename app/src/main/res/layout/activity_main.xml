@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ai.cwf.changeicon.MainActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重置" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/setw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换为美女" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/setm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换为帅哥" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/addw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加美女人口" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/addm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加帅哥人口" />
+
+
+</LinearLayout>
