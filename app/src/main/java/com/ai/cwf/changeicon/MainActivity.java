@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 "com.ai.cwf.changeicon.TestM1");
         mDoubleM2 = new ComponentName(
                 getBaseContext(),
-                "com.ai.cwf.changeicon.TestM1");
+                "com.ai.cwf.changeicon.TestM2");
         mPm = getApplicationContext().getPackageManager();
         findViewById(R.id.reset).setOnClickListener(this);
         findViewById(R.id.setw).setOnClickListener(this);
